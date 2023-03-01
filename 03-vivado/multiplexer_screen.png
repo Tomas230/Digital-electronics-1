@@ -1,4 +1,4 @@
-# Lab 3: Tomáš Hutta
+# Lab 3: Samuel Gubi
 
 ### Three-bit wide 4-to-1 multiplexer
 
@@ -45,4 +45,3 @@ set_property -dict { PACKAGE_PIN V12   IOSTANDARD LVCMOS33 } [get_ports { f_o[1]
 set_property -dict { PACKAGE_PIN V11   IOSTANDARD LVCMOS33 } [get_ports { f_o[2] }]; #IO_L21N_T3_DQS_A06_D22_14 Sch=led[15]
 ...
 ```
-
