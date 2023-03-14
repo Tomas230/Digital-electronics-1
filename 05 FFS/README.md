@@ -4,7 +4,7 @@
 
 1. Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents output value after the clock edge.   
 
-![Characteristic equations](./rovnice_de1.png)
+![rovnice_de1](https://user-images.githubusercontent.com/124770881/225112770-796082dd-fc86-47de-bbe6-30fb2fd411c4.png)
 
    **D-type FF**
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
@@ -40,7 +40,7 @@
 
 1. Screenshot with simulated time waveforms. Try to simulate both D- and T-type flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure](![screen-flip-flops](https://user-images.githubusercontent.com/124770881/225112464-3a80c823-fa5b-4eec-b005-9976cdef0dbc.PNG))
+   ![screen-flip-flops](https://user-images.githubusercontent.com/124770881/225112983-32875f1e-0762-4809-9af8-b194f4e50d32.PNG)
 
 ### JK Flip-flop
 
@@ -83,12 +83,12 @@ end architecture Behavioral;
 ```
 ### Screen of working JK
 
-![your figure](Screen_jk.png)
+<img width="1407" alt="Screen_jk" src="https://user-images.githubusercontent.com/124770881/225113433-923b222f-20da-47e7-9e13-49a0151a72aa.png">
 ( V textových súboroch mám len programy s ktorými som pracoval v EDU. a toto je výsledok )
 
 ### Shift register
 
 1. Image of `top` level schematic of the 4-bit shift register. Use four D-type flip-flops and connect them properly. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/124770881/225114157-400b2f00-0289-4043-b739-0c92f0cf1430.png)
 
