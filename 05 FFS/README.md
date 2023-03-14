@@ -9,7 +9,7 @@
    **D-type FF**
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![![šipka_de1](https://user-images.githubusercontent.com/124770881/225112103-e7dfe9d4-0dc6-494d-a272-89b8e5b2d883.png)](./%C5%A1ipka_de1.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
+   | ![rising](https://user-images.githubusercontent.com/124770881/225112103-e7dfe9d4-0dc6-494d-a272-89b8e5b2d883.png)](./%C5%A1ipka_de1.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
    | ![rising](./%C5%A1ipka_de1.png) | 0 | 1 | 0 | `q(n+1)` has the same level as `d` |
    | ![rising](./%C5%A1ipka_de1.png) | 1 | 0 | 1 | `q(n+1)` has the same level as `d` |
    | ![rising](./%C5%A1ipka_de1.png) | 1 | 1 | 1 | `q(n+1)` has the same level as `d` |
@@ -40,7 +40,7 @@
 
 1. Screenshot with simulated time waveforms. Try to simulate both D- and T-type flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure](screen_Gub.PNG)
+   ![your figure](![screen-flip-flops](https://user-images.githubusercontent.com/124770881/225112464-3a80c823-fa5b-4eec-b005-9976cdef0dbc.PNG))
 
 ### JK Flip-flop
 
