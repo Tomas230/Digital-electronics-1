@@ -1,4 +1,4 @@
-# Lab 6: Samuel Gubi 
+# Lab 6: Tomáš Hutta 
 
 ### Bidirectional counter
 
