@@ -1,10 +1,55 @@
 # Lab 5: Tomáš Hutta
+<<<<<<< HEAD
+=======
+
+## Pre-Lab preparation
+
+1. Write characteristic equations and complete truth tables for D, JK, T flip-flops where `q(n)` represents main output value before the clock edge and `q(n+1)` represents output value after the clock edge.   
+
+![rovnice_de1](https://user-images.githubusercontent.com/124770881/225112770-796082dd-fc86-47de-bbe6-30fb2fd411c4.png)
+
+   **D-type FF**
+   | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-: | :-: | :-: | :-: | :-- |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 1 | 0 | `q(n+1)` has the same level as `d` |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 0 | 1 | `q(n+1)` has the same level as `d` |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 1 | 1 | `q(n+1)` has the same level as `d` |
+
+   **JK-type FF**
+   | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-: | :-: | :-: | :-: | :-: | :-- |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 0 | 0 | 1 | Output did not change |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 0 | 1 | 0 | Output did not change |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 1 | 0 | 0 | Reset |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 1 | 0 | 0 | Reset |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 0 | 1 | 1 | Set |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 0 | 1 | 1 | Set |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 1 | 1 | 1 | Toogle |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 1 | 0 | 0 | Toogle |
+
+   **T-type FF**
+   | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-: | :-: | :-: | :-: | :-- |
+   | ![rising](./%C5%A1ipka_de1.png)) | 0 | 0 | 0 | Output did not change |
+   | ![rising](./%C5%A1ipka_de1.png) | 0 | 1 | 1 | Output did not change |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 0 | 1 | Toogle |
+   | ![rising](./%C5%A1ipka_de1.png) | 1 | 1 | 0 | Toogle |
+
+<a name="part1"></a>
+>>>>>>> f904b25ac222062c3d816538ef1167e59507bf44
 
 ### D & T Flip-flops
 
 1. Screenshot with simulated time waveforms. Try to simulate both D- and T-type flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
+<<<<<<< HEAD
    ![your figure](screen-flip-flops.png)
+=======
+   ![screen-flip-flops](https://user-images.githubusercontent.com/124770881/225112983-32875f1e-0762-4809-9af8-b194f4e50d32.PNG)
+
+### JK Flip-flop
+>>>>>>> f904b25ac222062c3d816538ef1167e59507bf44
 
 1. Listing of VHDL architecture for JK-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -43,9 +88,17 @@ begin
 end architecture Behavioral;
 
 ```
+<<<<<<< HEAD
+=======
+### Screen of working JK
+
+<img width="1407" alt="Screen_jk" src="https://user-images.githubusercontent.com/124770881/225113433-923b222f-20da-47e7-9e13-49a0151a72aa.png">
+( V textových súboroch mám len programy s ktorými som pracoval v EDU. a toto je výsledok )
+
+>>>>>>> f904b25ac222062c3d816538ef1167e59507bf44
 ### Shift register
 
 1. Image of `top` level schematic of the 4-bit shift register. Use four D-type flip-flops and connect them properly. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   ![image](https://user-images.githubusercontent.com/124770881/225114157-400b2f00-0289-4043-b739-0c92f0cf1430.png)
 
