@@ -1,4 +1,4 @@
-# Lab 7: Václav Kubeš
+# Lab 7: Tomáš Hutta
 
 ### Display driver
 
