@@ -96,8 +96,8 @@
 
 2. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   !![228564152-6693d416-788d-48e0-b6a7-295732523b34](https://user-images.githubusercontent.com/124770881/229850202-70ab4d1e-55e6-4d25-9c54-53872d4050df.png)
+   ![228564152-6693d416-788d-48e0-b6a7-295732523b34](https://user-images.githubusercontent.com/124770881/229850202-70ab4d1e-55e6-4d25-9c54-53872d4050df.png)
 
 3. Figure of Moor-based state diagram of the traffic light controller with *speed button* to ensure a synchronous transition to the `WEST_GO` state. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
 
-   !![speed button](https://user-images.githubusercontent.com/124770881/229849954-395116b9-ffa4-4cdc-adc0-77d3b0f10e05.png)
+   ![speed button](https://user-images.githubusercontent.com/124770881/229849954-395116b9-ffa4-4cdc-adc0-77d3b0f10e05.png)
