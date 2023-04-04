@@ -1,4 +1,4 @@
-# Lab 8: Samuel Gubi
+# Lab 8: Tomáš Hutta
 
 ### Traffic light controller
 
